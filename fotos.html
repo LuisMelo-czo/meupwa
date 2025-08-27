@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web App</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,32 +34,35 @@
             </div>
         </nav>
     </header>
+
     <div class="container">
-        <div class="row">
-            <div id="carouselExample" class="carousel slide">
+        <div class="row mb-3">
+            <h1 class="d-flex justify-content-center">Galeria</h1>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="panda.png" class="d-block w-100" alt="um panda">
+                        <img src="panda.png" class="d-block w-100" alt="Panda">
                     </div>
                     <div class="carousel-item">
-                        <img src="sea_turtle.jpg" class="d-block w-100" alt="uma tartaruga marinha">
+                        <img src="sea_turtle.jpg" class="d-block w-100" alt="Tartaruga marinha">
                     </div>
                     <div class="carousel-item">
-                        <img src="elefante.png" class="d-block w-100" alt="um elefante">
+                        <img src="elefante.png" class="d-block w-100" alt="Elefante">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Próximo</span>
                 </button>
-            </div></div>
+            </div>
         </div>
+
         <div class="row">
             <div class="col-12 col-md-4">
                 <h2>Giant Panda</h2>
@@ -73,20 +76,13 @@
                 <h2>Elephant</h2>
                 <img class="img-fluid" src="elefante.png" alt="um elefante">
             </div>
-
         </div>
-
-
-
     </div>
 
-
-
-
+    <!-- Script JS do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
-
-
-
-
 
 </html>
